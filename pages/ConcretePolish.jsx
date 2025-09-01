@@ -159,7 +159,7 @@ const ConcretePolish = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/TwzJpykQ/cncrete-polish-main.jpg" 
                   alt="Concrete Polish Floor Example 1"
                   style={{
                     width: '100%',
@@ -170,7 +170,7 @@ const ConcretePolish = () => {
                   }}
                 />
                 <img 
-                  src="https://images.pexels.com/photos/2219026/pexels-photo-2219026.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/gJH26Qs5/concrete-polish-2.png" 
                   alt="Concrete Polish Floor Example 2"
                   style={{
                     width: '100%',

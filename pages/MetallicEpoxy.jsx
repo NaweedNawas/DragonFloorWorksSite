@@ -159,7 +159,7 @@ const MetallicEpoxy = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/Pfv6TH62/metallix-epoxy.jpg" 
                   alt="Metallic Epoxy Floor Example 1"
                   style={{
                     width: '100%',
@@ -170,7 +170,7 @@ const MetallicEpoxy = () => {
                   }}
                 />
                 <img 
-                  src="https://images.pexels.com/photos/2219025/pexels-photo-2219025.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/dV3Zcs60/metallic-epoxy2.webp" 
                   alt="Metallic Epoxy Floor Example 2"
                   style={{
                     width: '100%',

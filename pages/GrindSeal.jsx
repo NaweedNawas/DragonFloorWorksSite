@@ -159,7 +159,7 @@ const GrindSeal = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/SKKr5b2L/grind-and-seal-main.jpg" 
                   alt="Grind and Seal Floor Example 1"
                   style={{
                     width: '100%',
@@ -170,7 +170,7 @@ const GrindSeal = () => {
                   }}
                 />
                 <img 
-                  src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/fLcJfJz8/grind-and-seal.jpg" 
                   alt="Grind and Seal Floor Example 2"
                   style={{
                     width: '100%',

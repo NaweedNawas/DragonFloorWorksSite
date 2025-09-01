@@ -35,31 +35,31 @@ const ServicesPreview = () => {
 
   const services = [
     {
-      image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.postimg.cc/Gtgg73zy/plain-epoxy.jpg",
       title: "Plain Epoxy / Ultra Flakes",
       description: "Durable epoxy coatings with decorative flakes for enhanced slip resistance and style.",
       path: "/services/plain-epoxy"
     },
     {
-      image: "https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.postimg.cc/Pfv6TH62/metallix-epoxy.jpg",
       title: "Metallic Epoxy",
       description: "Premium metallic epoxy finishes that create stunning marble-like effects.",
       path: "/services/metallic-epoxy"
     },
     {
-      image: "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.postimg.cc/SKKr5b2L/grind-and-seal-main.jpg",
       title: "Grind and Seal",
       description: "Cost-effective concrete grinding and sealing for a smooth, protected surface.",
       path: "/services/grind-seal"
     },
     {
-      image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.postimg.cc/TwzJpykQ/cncrete-polish-main.jpg",
       title: "Concrete Polish",
       description: "High-gloss polished concrete floors that are durable and low-maintenance.",
       path: "/services/concrete-polish"
     },
     {
-      image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.postimg.cc/Hk60bvZr/driveway-coating-main.jpg",
       title: "Driveway Coating and Wash",
       description: "Professional driveway coatings and cleaning services for enhanced curb appeal.",
       path: "/services/driveway-coating"

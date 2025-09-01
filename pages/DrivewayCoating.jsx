@@ -153,13 +153,13 @@ const DrivewayCoating = () => {
               }}>
                 
               </h3>
-              <div style={{
+             <div style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/Hk60bvZr/driveway-coating-main.jpg" 
                   alt="Driveway Coating Example 1"
                   style={{
                     width: '100%',
@@ -170,7 +170,7 @@ const DrivewayCoating = () => {
                   }}
                 />
                 <img 
-                  src="https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="https://i.postimg.cc/ZKR5Cfd7/driveway-coating-2.webp" 
                   alt="Driveway Coating Example 2"
                   style={{
                     width: '100%',
