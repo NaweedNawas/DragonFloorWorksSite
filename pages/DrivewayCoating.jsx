@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const DrivewayCoating = () => {
   const ref = useRef(null)
@@ -156,7 +159,7 @@ const DrivewayCoating = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://i.postimg.cc/Hk60bvZr/driveway-coating-main.jpg" 
+                  src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Driveway Coating Example 1"
                   style={{
                     width: '100%',
@@ -167,7 +170,7 @@ const DrivewayCoating = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/ZKR5Cfd7/driveway-coating-2.webp" 
+                  src="https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Driveway Coating Example 2"
                   style={{
                     width: '100%',
@@ -207,8 +210,8 @@ const DrivewayCoating = () => {
               }}>
                 Get in touch with us for a free assessment and quote on our driveway services.
               </p>
-              <motion.a
-                href="/contact"
+              <MotionLink
+                to="/contact"
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -225,9 +228,9 @@ const DrivewayCoating = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
-              <motion.a
-                href="/quote"
+              </MotionLink>
+              <MotionLink
+                to="/quote"
                 className="btn"
                 style={{
                   background: 'transparent',
@@ -247,7 +250,7 @@ const DrivewayCoating = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Get a Quote
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

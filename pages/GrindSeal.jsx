@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const GrindSeal = () => {
   const ref = useRef(null)
@@ -156,7 +159,7 @@ const GrindSeal = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://i.postimg.cc/SKKr5b2L/grind-and-seal-main.jpg" 
+                  src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Grind and Seal Floor Example 1"
                   style={{
                     width: '100%',
@@ -167,7 +170,7 @@ const GrindSeal = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/fLcJfJz8/grind-and-seal.jpg" 
+                  src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Grind and Seal Floor Example 2"
                   style={{
                     width: '100%',
@@ -207,8 +210,8 @@ const GrindSeal = () => {
               }}>
                 Contact us to learn more about our grind and seal services and get a free quote.
               </p>
-              <motion.a
-                href="/contact"
+              <MotionLink
+                to="/contact"
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -225,9 +228,9 @@ const GrindSeal = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
-              <motion.a
-                href="/quote"
+              </MotionLink>
+              <MotionLink
+                to="/quote"
                 className="btn"
                 style={{
                   background: 'transparent',
@@ -247,7 +250,7 @@ const GrindSeal = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Get a Quote
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

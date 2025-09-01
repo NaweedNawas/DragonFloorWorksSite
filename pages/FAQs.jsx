@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const FAQs = () => {
   const ref = useRef(null)
@@ -237,8 +240,8 @@ const FAQs = () => {
               }}>
                 Our team is here to help! Contact us for personalized answers and a free consultation.
               </p>
-              <motion.a 
-                href="/contact" 
+              <MotionLink
+                to="/contact" 
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -255,7 +258,7 @@ const FAQs = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

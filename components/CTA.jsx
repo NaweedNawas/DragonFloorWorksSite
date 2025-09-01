@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const CTA = () => {
   const ref = useRef(null)
@@ -47,24 +50,24 @@ const CTA = () => {
             animate={isInView ? { y: 0, opacity: 1 } : { y: 30, opacity: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            <motion.a 
-              href="/quote" 
+            <MotionLink
+              to="/quote" 
               className="btn btn-primary"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               Get Free Quote
-            </motion.a>
-            <motion.a 
-              href="/contact" 
+            </MotionLink>
+            <MotionLink
+              to="/contact" 
               className="btn btn-outline"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               Contact Us
-            </motion.a>
+            </MotionLink>
           </motion.div>
         </motion.div>
       </div>

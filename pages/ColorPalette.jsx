@@ -1,6 +1,9 @@
 import React, { useState, useRef } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import colorPaletteData from '../data/colorPaletteData'
+
+const MotionLink = motion(Link)
 
 const ColorPalette = () => {
   const ref = useRef(null)
@@ -232,8 +235,8 @@ const ColorPalette = () => {
               }}>
                 Contact us to discuss your color preferences and get a personalized quote for your project.
               </p>
-              <motion.a
-                href="/contact"
+              <MotionLink
+                to="/contact"
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -250,9 +253,9 @@ const ColorPalette = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
-              <motion.a
-                href="/quote"
+              </MotionLink>
+              <MotionLink
+                to="/quote"
                 className="btn"
                 style={{
                   background: 'transparent',
@@ -272,7 +275,7 @@ const ColorPalette = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Get a Quote
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

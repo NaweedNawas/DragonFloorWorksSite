@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const PlainEpoxy = () => {
   const ref = useRef(null)
@@ -156,7 +159,7 @@ const PlainEpoxy = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://i.postimg.cc/Gtgg73zy/plain-epoxy.jpg" 
+                  src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Plain Epoxy Floor Example 1"
                   style={{
                     width: '100%',
@@ -167,7 +170,7 @@ const PlainEpoxy = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/wv6W9RGN/plain-epoxy2.jpg" 
+                  src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Plain Epoxy Floor Example 2"
                   style={{
                     width: '100%',
@@ -207,8 +210,8 @@ const PlainEpoxy = () => {
               }}>
                 Contact us today for a free consultation and quote on your Plain Epoxy or Ultra Flake flooring project.
               </p>
-              <motion.a
-                href="/contact"
+              <MotionLink
+                to="/contact"
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -225,9 +228,9 @@ const PlainEpoxy = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
-              <motion.a
-                href="/quote"
+              </MotionLink>
+              <MotionLink
+                to="/quote"
                 className="btn"
                 style={{
                   background: 'transparent',
@@ -247,7 +250,7 @@ const PlainEpoxy = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Get a Quote
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

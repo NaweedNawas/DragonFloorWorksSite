@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const MetallicEpoxy = () => {
   const ref = useRef(null)
@@ -156,7 +159,7 @@ const MetallicEpoxy = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://i.postimg.cc/Pfv6TH62/metallix-epoxy.jpg" 
+                  src="https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Metallic Epoxy Floor Example 1"
                   style={{
                     width: '100%',
@@ -167,7 +170,7 @@ const MetallicEpoxy = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/dV3Zcs60/metallic-epoxy2.webp" 
+                  src="https://images.pexels.com/photos/2219025/pexels-photo-2219025.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Metallic Epoxy Floor Example 2"
                   style={{
                     width: '100%',
@@ -207,8 +210,8 @@ const MetallicEpoxy = () => {
               }}>
                 Discover the endless design possibilities. Contact us for a personalized consultation and quote.
               </p>
-              <motion.a
-                href="/contact"
+              <MotionLink
+                to="/contact"
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -225,9 +228,9 @@ const MetallicEpoxy = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
-              <motion.a
-                href="/quote"
+              </MotionLink>
+              <MotionLink
+                to="/quote"
                 className="btn"
                 style={{
                   background: 'transparent',
@@ -247,7 +250,7 @@ const MetallicEpoxy = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Get a Quote
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

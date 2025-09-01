@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import QuoteForm from '../components/QuoteForm'
 
 const Contact = () => {
@@ -241,8 +242,8 @@ const Contact = () => {
               }}>
                 We're here to help bring your flooring vision to life. Contact us today!
               </p>
-              <motion.a 
-                href="tel:0420522182" 
+              <motion.a
+                href="tel:0420522182"
                 className="btn"
                 style={{
                   background: 'var(--white)',

@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const ConcretePolish = () => {
   const ref = useRef(null)
@@ -156,7 +159,7 @@ const ConcretePolish = () => {
                 gap: '2rem'
               }}>
                 <img 
-                  src="https://i.postimg.cc/TwzJpykQ/cncrete-polish-main.jpg" 
+                  src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Concrete Polish Floor Example 1"
                   style={{
                     width: '100%',
@@ -167,7 +170,7 @@ const ConcretePolish = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/gJH26Qs5/concrete-polish-2.png" 
+                  src="https://images.pexels.com/photos/2219026/pexels-photo-2219026.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Concrete Polish Floor Example 2"
                   style={{
                     width: '100%',
@@ -207,8 +210,8 @@ const ConcretePolish = () => {
               }}>
                 Contact us today to explore the possibilities of polished concrete for your property.
               </p>
-              <motion.a
-                href="/contact"
+              <MotionLink
+                to="/contact"
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -225,9 +228,9 @@ const ConcretePolish = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
-              <motion.a
-                href="/quote"
+              </MotionLink>
+              <MotionLink
+                to="/quote"
                 className="btn"
                 style={{
                   background: 'transparent',
@@ -247,7 +250,7 @@ const ConcretePolish = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Get a Quote
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

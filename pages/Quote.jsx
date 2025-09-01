@@ -2,7 +2,10 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import QuoteForm from '../components/QuoteForm'
+
+const MotionLink = motion(Link)
 
 const Quote = () => {
   const ref = useRef(null)
@@ -132,8 +135,8 @@ const Quote = () => {
               }}>
                 Give us a call and speak with one of our flooring experts today.
               </p>
-              <motion.a 
-                href="/contact" 
+              <MotionLink
+                to="/contact" 
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -150,7 +153,7 @@ const Quote = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>

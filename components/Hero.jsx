@@ -1,7 +1,10 @@
 import React from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import QuoteForm from './QuoteForm'
+
+const MotionLink = motion(Link)
 
 const Hero = () => {
   const ref = useRef(null)
@@ -71,15 +74,15 @@ const Hero = () => {
             Transform your space with our expert flooring installation and restoration services. Quality craftsmanship guaranteed.
           </motion.p>
           <motion.div className="hero-buttons" variants={itemVariants}>
-            <motion.a 
-              href="/quote" 
+            <MotionLink
+              to="/quote" 
               className="btn btn-secondary"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               Get Free Quote
-            </motion.a>
+            </MotionLink>
           </motion.div>
         </div>
         <QuoteForm />

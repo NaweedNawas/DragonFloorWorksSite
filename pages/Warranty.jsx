@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 const Warranty = () => {
   const ref = useRef(null)
@@ -106,7 +109,7 @@ const Warranty = () => {
                 maxWidth: '800px',
                 margin: '0 auto'
               }}>
-                At Dragon Floor Works, we stand by the quality of our work and materials. That's why we proudly offer a 10-Year Warranty on all our epoxy floor coating systems.
+                At Custom Floor Work, we stand by the quality of our work and materials. That's why we proudly offer a 10-Year Warranty on all our epoxy floor coating systems.
               </p>
             </motion.div>
 
@@ -266,8 +269,8 @@ const Warranty = () => {
               }}>
                 Our team is here to help! Contact us for personalized answers and a free consultation.
               </p>
-              <motion.a 
-                href="/contact" 
+              <MotionLink
+                to="/contact" 
                 className="btn"
                 style={{
                   background: 'var(--white)',
@@ -284,7 +287,7 @@ const Warranty = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 Contact Us
-              </motion.a>
+              </MotionLink>
             </motion.div>
           </motion.div>
         </div>
