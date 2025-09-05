@@ -155,31 +155,29 @@ const ConcretePolish = () => {
               </h3>
               <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                gap: '2rem'
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.5rem'
               }}>
-                <img 
-                  src="https://i.postimg.cc/TwzJpykQ/cncrete-polish-main.jpg" 
-                  alt="Concrete Polish Floor Example 1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
-                <img 
-                  src="https://i.postimg.cc/gJH26Qs5/concrete-polish-2.png" 
-                  alt="Concrete Polish Floor Example 2"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
+                {[
+                  { src: "https://i.postimg.cc/fyHPF3hh/polished-concrete-overview.png", alt: "Polished Concrete Work Example 1" },
+                  { src: "https://i.postimg.cc/63XFGJhF/polishedconcrete.jpg", alt: "Polished Concrete Work Example 2" },
+                  { src: "https://i.postimg.cc/y82MsS31/Polished-1999-overlay.jpg", alt: "Polished Concrete Work Example 3" },
+                  { src: "https://i.postimg.cc/FzFqDy8Z/Screen-Shot-2023-01-06-at-2-57-50-pm.webp", alt: "Polished Concrete Work Example 4" },
+                  { src: "https://i.postimg.cc/fLfpc22y/Whats-App-Image-2025-09-01-at-21-59-47-d61767d0.jpg", alt: "Polished Concrete Work Example 5" }
+                ].map((image, index) => (
+                  <img 
+                    key={index}
+                    src={image.src} 
+                    alt={image.alt}
+                    style={{
+                      width: '100%',
+                      height: '220px',
+                      objectFit: 'cover',
+                      borderRadius: '10px',
+                      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
+                    }}
+                  />
+                ))}
               </div>
             </motion.div>
 

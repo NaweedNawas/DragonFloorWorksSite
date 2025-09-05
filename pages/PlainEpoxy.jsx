@@ -155,31 +155,33 @@ const PlainEpoxy = () => {
               </h3>
               <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                gap: '2rem'
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.5rem'
               }}>
-                <img 
-                  src="https://i.postimg.cc/Gtgg73zy/plain-epoxy.jpg" 
-                  alt="Plain Epoxy Floor Example 1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
-                <img 
-                  src="https://i.postimg.cc/wv6W9RGN/plain-epoxy2.jpg" 
-                  alt="Plain Epoxy Floor Example 2"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
+                {[
+                  { src: "https://i.postimg.cc/NMd2rYc0/IMG-20250901-WA0005.jpg", alt: "Plain Epoxy Work Example 1" },
+                  { src: "https://i.postimg.cc/wBdmC029/IMG-20250901-WA0006.jpg", alt: "Plain Epoxy Work Example 2" },
+                  { src: "https://i.postimg.cc/63WG3qFS/IMG-20250901-WA0007.jpg", alt: "Plain Epoxy Work Example 3" },
+                  { src: "https://i.postimg.cc/rpCrMxZx/IMG-20250901-WA0008.jpg", alt: "Plain Epoxy Work Example 4" },
+                  { src: "https://i.postimg.cc/j2CwH9x4/IMG-20250901-WA0009.jpg", alt: "Plain Epoxy Work Example 5" },
+                  { src: "https://i.postimg.cc/QCPB0bVG/IMG-20250901-WA0010.jpg", alt: "Plain Epoxy Work Example 6" },
+                  { src: "https://i.postimg.cc/RV6JqjbM/IMG-20250901-WA0011.jpg", alt: "Plain Epoxy Work Example 7" },
+                  { src: "https://i.postimg.cc/m2vz9807/IMG-20250901-WA0013.jpg", alt: "Plain Epoxy Work Example 8" },
+                  { src: "https://i.postimg.cc/rw5dN5k3/IMG-20250901-WA0014.jpg", alt: "Plain Epoxy Work Example 9" }
+                ].map((image, index) => (
+                  <img 
+                    key={index}
+                    src={image.src} 
+                    alt={image.alt}
+                    style={{
+                      width: '100%',
+                      height: '220px',
+                      objectFit: 'cover',
+                      borderRadius: '10px',
+                      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
+                    }}
+                  />
+                ))}
               </div>
             </motion.div>
 

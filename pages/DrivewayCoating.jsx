@@ -158,28 +158,23 @@ const DrivewayCoating = () => {
                 gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                 gap: '2rem'
               }}>
-                <img 
-                  src="https://i.postimg.cc/Hk60bvZr/driveway-coating-main.jpg" 
-                  alt="Driveway Coating Example 1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
-                <img 
-                  src="https://i.postimg.cc/ZKR5Cfd7/driveway-coating-2.webp" 
-                  alt="Driveway Coating Example 2"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
+                {[
+                  { src: "https://i.postimg.cc/9FnSYqpd/Freshly-painted-driveway-2-640w.webp", alt: "Driveway Coating Work Example 1" },
+                  { src: "https://i.postimg.cc/SNs39GWQ/images.jpg", alt: "Driveway Coating Work Example 2" }
+                ].map((image, index) => (
+                  <img 
+                    key={index}
+                    src={image.src} 
+                    alt={image.alt}
+                    style={{
+                      width: '100%',
+                      height: '250px',
+                      objectFit: 'cover',
+                      borderRadius: '10px',
+                      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
+                    }}
+                  />
+                ))}
               </div>
             </motion.div>
 

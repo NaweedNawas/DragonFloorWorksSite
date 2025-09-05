@@ -54,8 +54,8 @@ const Hero = () => {
     <section id="home" className="hero" ref={ref}>
       <motion.div className="hero-background" style={{ y }}>
         <img 
-          src="/Concrete-Flooring-in-Aesthetic-Design-for-Hotels-and-Resorts.webp" 
-          alt="Concrete flooring background" 
+          src="https://i.postimg.cc/c18KyjGK/epoxy-flooring-1024x585.webp" 
+          alt="Epoxy flooring background" 
           className="hero-bg-image"
         />
       </motion.div>
@@ -71,7 +71,7 @@ const Hero = () => {
             Premium Flooring Solutions
           </motion.h1>
           <motion.p className="hero-subtitle" variants={itemVariants}>
-            Transform your space with our expert flooring installation and restoration services. Quality craftsmanship guaranteed.
+            Transform your space with our expert flooring installation and restoration services. With 10+ years of experience, quality craftsmanship guaranteed.
           </motion.p>
           <motion.div className="hero-buttons" variants={itemVariants}>
             <MotionLink

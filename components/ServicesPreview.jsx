@@ -35,7 +35,7 @@ const ServicesPreview = () => {
 
   const services = [
     {
-      image: "https://i.postimg.cc/Gtgg73zy/plain-epoxy.jpg",
+      image: "https://i.postimg.cc/m2vz9807/IMG-20250901-WA0013.jpg",
       title: "Plain Epoxy / Ultra Flakes",
       description: "Durable epoxy coatings with decorative flakes for enhanced slip resistance and style.",
       path: "/services/plain-epoxy"
@@ -47,19 +47,19 @@ const ServicesPreview = () => {
       path: "/services/metallic-epoxy"
     },
     {
-      image: "https://i.postimg.cc/SKKr5b2L/grind-and-seal-main.jpg",
+      image: "https://i.postimg.cc/FKMNWBVx/sth-port-1-grind-and-seal.jpg",
       title: "Grind and Seal",
       description: "Cost-effective concrete grinding and sealing for a smooth, protected surface.",
       path: "/services/grind-seal"
     },
     {
-      image: "https://i.postimg.cc/TwzJpykQ/cncrete-polish-main.jpg",
+      image: "https://i.postimg.cc/63XFGJhF/polishedconcrete.jpg",
       title: "Concrete Polish",
       description: "High-gloss polished concrete floors that are durable and low-maintenance.",
       path: "/services/concrete-polish"
     },
     {
-      image: "https://i.postimg.cc/Hk60bvZr/driveway-coating-main.jpg",
+      image: "https://i.postimg.cc/9FnSYqpd/Freshly-painted-driveway-2-640w.webp",
       title: "Driveway Coating and Wash",
       description: "Professional driveway coatings and cleaning services for enhanced curb appeal.",
       path: "/services/driveway-coating"

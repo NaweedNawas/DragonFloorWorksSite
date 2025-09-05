@@ -158,28 +158,24 @@ const GrindSeal = () => {
                 gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                 gap: '2rem'
               }}>
-                <img 
-                  src="https://i.postimg.cc/SKKr5b2L/grind-and-seal-main.jpg" 
-                  alt="Grind and Seal Floor Example 1"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
-                <img 
-                  src="https://i.postimg.cc/fLcJfJz8/grind-and-seal.jpg" 
-                  alt="Grind and Seal Floor Example 2"
-                  style={{
-                    width: '100%',
-                    height: '250px',
-                    objectFit: 'cover',
-                    borderRadius: '10px',
-                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
-                  }}
-                />
+                {[
+                  { src: "https://i.postimg.cc/FKMNWBVx/sth-port-1-grind-and-seal.jpg", alt: "Grind and Seal Work Example 1" },
+                  { src: "https://i.postimg.cc/mD7R0ydW/Whats-App-Image-2025-09-01-at-21-58-56-5c3bcbf0.jpg", alt: "Grind and Seal Work Example 2" },
+                  { src: "https://i.postimg.cc/4yZZZHM7/Whats-App-Image-2025-09-01-at-21-58-56-8a91ca29.jpg", alt: "Grind and Seal Work Example 3" }
+                ].map((image, index) => (
+                  <img 
+                    key={index}
+                    src={image.src} 
+                    alt={image.alt}
+                    style={{
+                      width: '100%',
+                      height: '250px',
+                      objectFit: 'cover',
+                      borderRadius: '10px',
+                      boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
+                    }}
+                  />
+                ))}
               </div>
             </motion.div>
 
