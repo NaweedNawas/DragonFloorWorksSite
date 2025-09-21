@@ -220,7 +220,7 @@ const Contact = () => {
                 textAlign: 'center',
                 marginTop: '4rem',
                 padding: '3rem 2rem',
-                background: 'var(--gold)',
+                background: 'var(--blue)',
                 borderRadius: '20px',
                 color: 'var(--white)',
                 maxWidth: '800px',
@@ -247,7 +247,7 @@ const Contact = () => {
                 className="btn"
                 style={{
                   background: 'var(--white)',
-                  color: 'var(--gold)',
+                  color: 'var(--blue)',
                   border: '2px solid var(--white)',
                   fontWeight: '600'
                 }}

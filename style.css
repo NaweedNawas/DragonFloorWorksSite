@@ -360,15 +360,17 @@ body {
 }
 
 .btn-primary {
-    background: var(--gold);
+    background: var(--blue);
     color: var(--white);
-    border-color: var(--gold);
+    border-color: var(--blue);
 }
 
 .btn-primary:hover {
-    background: var(--gold-dark);
+    background: var(--blue-dark);
+    color: var(--white);
+    border-color: var(--blue-dark);
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
 }
 
 .btn-secondary {
@@ -638,15 +640,15 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 12px;
-    width: 30px;
-    height: 30px;
-    background: var(--gold);
-    border-radius: 50%;
-    font-size: 14px;
-    color: var(--white);
+    width: 24px;
+    height: 24px;
     flex-shrink: 0;
 }
 
+.contact-icon svg {
+    width: 100%;
+    height: 100%;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {

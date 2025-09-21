@@ -180,6 +180,28 @@ const MetallicEpoxy = () => {
                     boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
                   }}
                 />
+                <img 
+                  src="https://i.postimg.cc/JzPB649q/metallic-epoxy-3.jpg" 
+                  alt="Metallic Epoxy Floor Example 2"
+                  style={{
+                    width: '100%',
+                    height: '250px',
+                    objectFit: 'cover',
+                    borderRadius: '10px',
+                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
+                  }}
+                />
+                <img 
+                  src="https://i.postimg.cc/k5HRCYMR/metallic-epoxy-4.jpg" 
+                  alt="Metallic Epoxy Floor Example 2"
+                  style={{
+                    width: '100%',
+                    height: '250px',
+                    objectFit: 'cover',
+                    borderRadius: '10px',
+                    boxShadow: '0 5px 15px rgba(0, 0, 0, 0.1)'
+                  }}
+                />
               </div>
             </motion.div>
 
