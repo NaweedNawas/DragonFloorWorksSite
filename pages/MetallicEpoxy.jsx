@@ -170,7 +170,7 @@ const MetallicEpoxy = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/dV3Zcs60/metallic-epoxy2.webp" 
+                  src="https://i.postimg.cc/KcfTsNhx/Whats-App-Image-2025-09-30-at-01-40-56-80ea7e39.jpg" 
                   alt="Metallic Epoxy Floor Example 2"
                   style={{
                     width: '100%',
@@ -181,7 +181,7 @@ const MetallicEpoxy = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/JzPB649q/metallic-epoxy-3.jpg" 
+                  src="https://i.postimg.cc/VNHfCd32/IMG-6143-Metallic-Pearl-Kitchen-scaled.webp" 
                   alt="Metallic Epoxy Floor Example 2"
                   style={{
                     width: '100%',
@@ -192,7 +192,7 @@ const MetallicEpoxy = () => {
                   }}
                 />
                 <img 
-                  src="https://i.postimg.cc/k5HRCYMR/metallic-epoxy-4.jpg" 
+                  src="https://i.postimg.cc/W4fNkhBk/metallic-epoxy-garage-floor-maroubra-beach-29.webp" 
                   alt="Metallic Epoxy Floor Example 2"
                   style={{
                     width: '100%',
